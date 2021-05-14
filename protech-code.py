@@ -21,9 +21,9 @@ camera = PiCamera()
 #e-mail info
 subject = "Je pakket is bezorgd!"
 body = "Protech heeft een pakket in je kluis gedetecteerd! -sent from Python"
-sender_email = "raspberrypiprotech@gmail.com"
-receiver_email = "msr.caspers@gmail.com"
-password = "rpiprotech"
+sender_email = "SENDER@gmail.com"
+receiver_email = "RECEIVER@gmail.com"
+password = "PASSWORD"
 
 timestamp = datetime.now().strftime("%Y_%m_%d-%I.%M.%S_%p")
 filename = timestamp + '.jpg'
